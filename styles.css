@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif, cursive;
+    font-weight: bold;
+}
+
+body {
+    background: #ff7591;
+}
+
+h3 {
+    font-family: 'Varela Round', sans-serif, cursive;
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+}
+
+div {
+    background-color: #c0f0fe;
+    border: 7px solid black;
+    width: 400px;
+    height: 120px;
+    border-radius: 100px;
+    padding: 1.1em;
+    margin: 60px auto;
+    transition: 0.3s box-shadow;
+}
+
+div:hover {
+    box-shadow: 0 4px 20px 0px rgba(0,0,0,.5);
+}
+
+input {
+    background-color: #c0f0fe;
+    border-radius: 100px;
+    text-align: right;
+    width: 260px;
+    height: 70px;
+    font-size: 48px;
+    border: none;
+    margin-left: 28px;
+}
+
+input::placeholder {
+    color: #222;
+    font-size: 38px;
+}
+
+span {
+    font-size: 40px;
+    font-family: 'Comfortaa', sans-serif, cursive;
+    margin-left: 8px;
+}
